@@ -1,0 +1,30 @@
+syntax = "proto3";
+package proto_file; //This prevents naming conflicts between different projects.
+
+
+
+message avi_return {
+	string jobid = 1;
+	string date_response = 2;
+}
+
+message events {
+	message data {
+		string deviceid = 1;
+		string cmd = 2;
+		string protocol = 3;
+		string date_request = 4;
+	}
+	message settings {
+		string subtype = 1;
+		string value = 2;
+	}
+}
+
+message cmd_to_devices {
+	string cmd = 1;
+	string device_id = 2;
+}
+
+
+
