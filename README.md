@@ -1,4 +1,4 @@
-# Python-Utils
+# Python in Data Science, Machine Learning, Deep Learning including logging units, validation units, test units, etc. 
 Various Techniques, Methods from Machine Learning, Data Science and Back-End Development, along with some of the Software Engineering practices will be continually expanded to provide a ground base from where to nurture future endeavours in Python Development, helping anyone including me as a refresher and a humble resource. 
 
 This is an ongoing project which is open for feedback, so don't hesitate to suggest me to add anything that might be of your help. Please, let me know if there is any mistake for I will be happily getting my hands into it. 
