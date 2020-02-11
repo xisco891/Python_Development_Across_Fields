@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python in Data Science, Machine Learning, Deep Learning including logging units, validation units, test units, etc. 
 Various Techniques, Methods from Machine Learning, Data Science and Back-End Development, along with some of the Software Engineering practices will be continually expanded to provide a ground base from where to nurture future endeavours in Python Development, helping anyone including me as a refresher and a humble resource. 
 
@@ -7,3 +8,7 @@ In sum, you will find, specially now in the early stages of this undertaking a b
 
   #TO-DO'S : ADD A README.MD IN EVERY SUBTOPIC FOLDER ALONG WITH IMPLEMENTATION GUIDANCE. 
   
+=======
+# Python-Utils
+Various Techniques and Design Principles for Software Development and Prototyping in Python
+>>>>>>> parent of 3e9c80f... Update README.md
