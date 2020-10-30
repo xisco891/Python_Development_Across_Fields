@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sample of Pythonic Code across various topics and areas. 
 
 This repository contains a collection of various examples of code I have written
@@ -10,6 +9,3 @@ what I did then and why.
 
 TO-DO : Add Data Preprocessing Pipelines, Python One-Liners, MLProductionSamples. 
 
-# Python-Utils
-Various Techniques and Design Principles for Software Development and Prototyping in Python
->>>>>>> parent of 3e9c80f... Update README.md
