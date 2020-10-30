@@ -1,14 +1,15 @@
 <<<<<<< HEAD
-# Python in Data Science, Machine Learning, Deep Learning including logging units, validation units, test units, etc. 
-Various Techniques, Methods from Machine Learning, Data Science and Back-End Development, along with some of the Software Engineering practices will be continually expanded to provide a ground base from where to nurture future endeavours in Python Development, helping anyone including me as a refresher and a humble resource. 
+# Sample of Pythonic Code across various topics and areas. 
 
-This is an ongoing project which is open for feedback, so don't hesitate to suggest me to add anything that might be of your help. Please, let me know if there is any mistake for I will be happily getting my hands into it. 
+This repository contains a collection of various examples of code I have written
+over the span of years, rather than a finely curated list of each and every logic 
+I have ever come across or I have implemented, is a small subset of code that serves
+the purpose of guiding further developments and to act as quick reminders of 
+what I did then and why. 
 
-In sum, you will find, specially now in the early stages of this undertaking a bit of clutter, but my aim is to encapsulate the most valuable approaches, structures, Design Principles in Python to solve problems whether these stem from Data Science, Machine Learning or Web Development in a way that is well abstracted and grasped no matter how foreign you are to the topic at hand.    
 
-  #TO-DO'S : ADD A README.MD IN EVERY SUBTOPIC FOLDER ALONG WITH IMPLEMENTATION GUIDANCE. 
-  
-=======
+TO-DO : Add Data Preprocessing Pipelines, Python One-Liners, MLProductionSamples. 
+
 # Python-Utils
 Various Techniques and Design Principles for Software Development and Prototyping in Python
 >>>>>>> parent of 3e9c80f... Update README.md

@@ -10,6 +10,7 @@ Created on Sat Sep 15 20:31:30 2018
 
 @author: Francisco
 """
+
 from fpdf import FPDF
 title = 'Statistics_Results for Data Analysis'
 

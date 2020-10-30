@@ -5,6 +5,19 @@ Created on Sat Oct 26 19:39:43 2019
 @author: Francisco
 """
 
+import numpy as np
+
+
+    
+def is_cat_data(self, dataframe):
+    
+    for i in range(0, dataframe.shape[1]):
+        value = dataframe.iloc[0,i]
+        try:
+            if is_float(value) is True:  
+                self.index.append(i)
+                  
+
 
 def is_standarised(X):
     mean = X.apply(np.mean)

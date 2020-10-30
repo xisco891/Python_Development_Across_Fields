@@ -1,4 +1,11 @@
-# Regression Template
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Oct 30 11:16:43 2020
+
+@author: xisco89
+"""
+
 
 # Importing the libraries
 import numpy as np

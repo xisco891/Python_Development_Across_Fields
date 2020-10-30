@@ -6,20 +6,10 @@ Created on Sat Oct 26 19:35:29 2019
 """
 
 
-# 1- Encoding "Campaign_name"
-e_data = pd.get_dummies(cat_data, columns=['campaign_name'], prefix=['Camp_'])
-#Take only the encoded variables, drop the 2 others
-e_data = e_data.drop([e_data.columns[0], e_data.columns[1]], axis=1)
-
-# 4- Avoiding dummy variable trap
-encoded_data = dummy_trap([e_data])
-
-
-
 
 
 def label_encoder(data):
-
+    
     from sklearn.preprocessing import LabelEncoder
     label_encoder = LabelEncoder()
     data = label_encoder.fit_transform(data)
@@ -38,7 +28,7 @@ def onehot_encoder(data, list_features=None):
         onehot_encoder = OneHotEncoder(categorical_features=list_features)
    
     data = onehot_encoder.fit_transform(data).toarray()
-    data = np.delete(data, 0,1) #Remove one variable to avoid dummy variable trap.
+    data = np.delete(data, 0, 1) #Remove one variable to avoid dummy variable trap.
     return data
 
 def dummy_trap(dataframes):
